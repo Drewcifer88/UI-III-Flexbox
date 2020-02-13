@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 99%;
+    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.logo{
-	display: inline-block;
+/* .logo{
+	display:flex;
 }
 .intro-phrase{
 	text-align: right;
@@ -74,10 +74,16 @@ h1, h2, h3, h4, h5 {
 	text-align: right;
 }
 .top {
-	display: inline-block;
+	/* display:flex;
 	width: 100%;
 	color: gray;
-	text-align: center;
+	text-align: center; */
+
+.top nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
 }
 h3 {
 	text-align: left; 
@@ -86,7 +92,7 @@ h3 {
 	padding: 0% 0% 0% 75%;
 }
 .top-core {
-	display: inline-block;
+	display:flex;
 	width: 90%;
 	height: 15%;
 	text-align: center;
@@ -95,7 +101,7 @@ h3 {
 	padding: 0% 0% 0% 32%;
 }
 .bottom-core {
-	display: inline-block;
+	display:flex;
 	width: 90%;
 	height: 15%;
 	text-align: center;
@@ -103,43 +109,67 @@ h3 {
 }
 
 .features {
-	display: inline-block;
+	display:flex;
 	width:30%;
 	height:90%
 	
 }
 .about {
-	display: inline-block;
+	display:flex;
 	width:30%;
 	height:90%;
 	
 	
 }
 .services {
-	display: inline-block;
-	width:30%;
-	height:90%;
+	display:flex;
 	
 }
 .product {
-	display: inline-block;
+	display:flex;
 	width:30%;
 	height:90%;
 	
 }
 .vision {
-	display: inline-block;
+	display:flex;
 	width:30%;
 	height:90%;
 	
 }
 .middle-img {
-	display: inline-block;
+	display:flex;
 	width: 60%;
 }
 .foot {
 	text-align: left;
 	padding: 15%;
 		
-}
+} 
 /* html services: */
+section header {
+	display: flex;
+	justify-content: space-evenly;
+}
+.services-header-img {
+	display: flex;
+}
+.services {
+	display: flex;
+	border: 1px solid black;
+}
+.block-1 {
+	display:flex;
+}
+.block-2 {
+	display:flex;
+	
+}
+.block-3 {
+	display:flex;
+	
+}
+.block-4 {
+	display:flex;
+	
+}
