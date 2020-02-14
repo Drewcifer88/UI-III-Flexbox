@@ -16,10 +16,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 1%;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -32,7 +33,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -59,7 +60,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
@@ -147,52 +148,84 @@ h3 {
 		
 } 
 /* html services: */
+
+
+
 section header {
 	display: flex;
 	justify-content: space-evenly;
+	margin: 3%;
 }
 .services-header-img {
-	display: flex;
+	padding: 0 10% 0 10%;
+	width: 100%;
+	
 }
 .services {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
+	padding: 0 10% 0 10%;
 }
 .body-content {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	
+	background-color:lightgray'
+	border:2px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 2%;
+	justify-content: space-between;
+	padding: 0 10% 0 10%;
+
 }
 .block-1 {
-	display:flex;
-	justify-content: space-evenly;
-	
+	 display:flex;
+	justify-content: space-around; 
 }
-.block-1 .design {
-	border: 1px solid black;
+	.block-1 .design {
+	border: 2px solid black;
+	background-color: gray;
+	
 	}
 	.block-1 .ux {
-		border: 1px solid black;
+		border: 2px solid black;
+		background-color: gray;
+		
 	}
 .block-2 {
 	display:flex;
+	justify-content: space-evenly;
 	}
 	.block-2 .dm {
-	border: 1px solid black;
+	border: 2px solid black;
+	background-color: gray;
+	
 	}
 	.block-2 .wd {
-	border: 1px solid black;
+	border: 2px solid black;
+	background-color: gray;
+	
 	}
 
 .block-3 {
 	display:flex;
+	justify-content: space-evenly;
 	}
 	.block-3 .ios {
-		border: 1px solid black;
+		border: 2px solid black;
+		background-color: gray;
+		
 	}
 	.block-3 .ad {
-		border: 1px solid black;
+		border: 2px solid black;
+		background-color: gray;
+		
 	}
 .block-4 {
-	display:flex;
+	display: flex;
+	
+}
+.facts {
+	/* display: flex;
+	flex-direction: column; */
+	
 }
