@@ -156,20 +156,39 @@ section header {
 }
 .services {
 	display: flex;
-	border: 1px solid black;
+	justify-content: flex-end;
+}
+.body-content {
+	
 }
 .block-1 {
 	display:flex;
 }
+.block-1 .design {
+	border: 1px solid black;
+	}
+	.block-1 .ux {
+		border: 1px solid black;
+	}
 .block-2 {
 	display:flex;
-	
-}
+	}
+	.block-2 .dm {
+	border: 1px solid black;
+	}
+	.block-2 .wd {
+	border: 1px solid black;
+	}
+
 .block-3 {
 	display:flex;
-	
 }
+	.block-3 .ios {
+		border: 1px solid black;
+	}
+	.block-3 .ad {
+		border: 1px solid black;
+	}
 .block-4 {
 	display:flex;
-	
 }
