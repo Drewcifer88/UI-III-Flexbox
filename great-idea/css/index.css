@@ -159,10 +159,14 @@ section header {
 	justify-content: flex-end;
 }
 .body-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	
 }
 .block-1 {
 	display:flex;
+	justify-content: space-evenly;
+	
 }
 .block-1 .design {
 	border: 1px solid black;
@@ -182,7 +186,7 @@ section header {
 
 .block-3 {
 	display:flex;
-}
+	}
 	.block-3 .ios {
 		border: 1px solid black;
 	}
